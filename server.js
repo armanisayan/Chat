@@ -17,5 +17,5 @@ app.use("/", routes);
 initializeSocket(server);
 
 server.listen(3333, () => {
-  console.log("Server listens to port 3000");
+  console.log("Server listens to port 3333");
 });
